@@ -13,7 +13,7 @@
 <body>
 <br>
 	<%if (!(request.getAttribute("msg") == null)) {	%>
-	<div class="col-sm-6">
+	<div class="col-sm-6	">
 			<div class="alert alert-primary" role="alert">
 			<%=request.getAttribute("msg")%> </div></div>
 	<%}	%>
